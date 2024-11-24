@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>FN's Portfolio</title>
+ </head>
+ <body>
+    <h1> FN's Portfolio </h1>
+    <!-- Contact Section -->
+    <div class="section contact"></div>
+    <p>Email: <a href="mailto:faribah.nawar@edu.sait.ca">faribah.nawar@edu.sait.ca</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/faribah-nawar" target="_blank">faribah-nawar</a></p>
+
+    <div class="topnav">
+        <a class="active" href="contact.html">Contact</a>
+        <a href="resume.html">Resume</a>
+        <a href="work.html">Work</a>
+        <a href="index.html">About</a>
+      </div>
+      
+       <!-- Contact Form -->
+    <section id="contact" class="contact-section">
+      <h2>Contact</h2>
+
+      <div class="group">
+        <div class="text">
+          Get in Touch With Me!
+        </div>
+
+        <form>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" cols="30" rows="10" required></textarea>
+
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Faribah Nawar <span id="year"></span></p>
+  </footer>

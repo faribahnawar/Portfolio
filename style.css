@@ -1,0 +1,31 @@
+
+
+/* Nav Bar CSS */
+
+/* Colour of Nav Bar */
+.topnav {
+    background-color: #7373a6;
+    overflow: hidden;
+  }
+
+  /* Colour of Text */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  /* Colour When You Hover */
+  .topnav a:hover {
+    background-color: #788ebf;
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Colour of Active Page */
+  .topnav a.active {
+    background-color: #829dc2;
+    color: white;
+  }
